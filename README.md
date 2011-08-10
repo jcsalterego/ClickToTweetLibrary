@@ -13,6 +13,9 @@ ClickToTweetLibrary
 1. Build project with XCode
 1. Copy (or symlink) generated `ClickToTweetLibrary.bundle` to SIMBL Plugins path, e.g. `~/Library/Application Support/SIMBL/Plugins`
 
+## Binary Downloads
+* Latest: [ClickToTweetLibrary.bundle](http://jcsalterego.github.com/ClickToTweetLibrary/files/ClickToTweetLibrary-latest.bundle.zip) (built on Snow Leopard)
+
 ## Remaining Work
 * The enabling/disabling of the menu item is hackish at best. It may be enabled when there's no tweet selected, but will do nothing if the hotkey is pressed.
 * It would be nice to add this to the contextual popup menu, but I'm unsure how to hook into that.
