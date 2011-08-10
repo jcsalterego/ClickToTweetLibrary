@@ -8,6 +8,8 @@
 
 #import "ClickToTweetLibrary.h"
 
+#define APP_VERSION @"0.0.1"
+
 #define MENU_ITEM_LABEL @"Open With Tweet Library…"
 #define SWIZZLE(class_name, src, dest) \
     [NSClassFromString(class_name) jr_swizzleMethod:@selector(src) \
@@ -72,7 +74,7 @@
 
     SWIZZLE(@"ABUITableViewCell", setSelected:animated:, CTTL__setSelected:animated:);
     SWIZZLE(@"ABRowView", setSelected:animated:, CTTL__setSelected:animated:);
-    NSLog(@"ClickToTweetLibrary loaded");
+    NSLog(@"ClickToTweetLibrary (%@) loaded", APP_VERSION);
 }
 
 @end
