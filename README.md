@@ -7,14 +7,13 @@ ClickToTweetLibrary
 ## Requirements
 * Twitter for Mac 2.1
 * SIMBL
-* Mac OS X Snow Leopard (Untested for Lion)
+* Mac OS X Snow Leopard (Untested on Lion)
 
 ## Installation
-1. Build project with XCode
-1. Copy (or symlink) generated `ClickToTweetLibrary.bundle` to SIMBL Plugins path, e.g. `~/Library/Application Support/SIMBL/Plugins`
-
-## Binary Downloads
-* Latest: [ClickToTweetLibrary.bundle](http://jcsalterego.github.com/ClickToTweetLibrary/files/ClickToTweetLibrary-latest.bundle.zip) (built on Snow Leopard)
+1. Build project with XCode or download binary ([ClickToTweetLibrary-latest.zip](http://jcsalterego.github.com/ClickToTweetLibrary/files/ClickToTweetLibrary-latest.zip))
+1. Copy (or symlink if developing) `ClickToTweetLibrary.bundle` to SIMBL Plugins path, e.g. `~/Library/Application Support/SIMBL/Plugins`
+1. Reload Twitter
+1. (Optional step) Verify with Console.app the plugin startup message (`"ClickToTweetLibrary (x.y.z) loaded"`)
 
 ## Remaining Work
 * The enabling/disabling of the menu item is hackish at best. It may be enabled when there's no tweet selected, but will do nothing if the hotkey is pressed.
