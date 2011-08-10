@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044FE39713F0C0BA00738954 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044FE39613F0C0BA00738954 /* Cocoa.framework */; };
+		044FE3A113F0C0BA00738954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044FE39F13F0C0BA00738954 /* InfoPlist.strings */; };
+		044FE3AD13F0C23100738954 /* ClickToTweetLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE3AC13F0C23100738954 /* ClickToTweetLibrary.m */; };
+		044FE3B013F0C34200738954 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 044FE3AE13F0C34200738954 /* JRSwizzle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044FE39313F0C0BA00738954 /* ClickToTweetLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickToTweetLibrary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		044FE39613F0C0BA00738954 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		044FE39913F0C0BA00738954 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		044FE39A13F0C0BA00738954 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		044FE39B13F0C0BA00738954 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		044FE39E13F0C0BA00738954 /* ClickToTweetLibrary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClickToTweetLibrary-Info.plist"; sourceTree = "<group>"; };
+		044FE3A013F0C0BA00738954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		044FE3A213F0C0BA00738954 /* ClickToTweetLibrary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClickToTweetLibrary-Prefix.pch"; sourceTree = "<group>"; };
+		044FE3AB13F0C23100738954 /* ClickToTweetLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickToTweetLibrary.h; sourceTree = "<group>"; };
+		044FE3AC13F0C23100738954 /* ClickToTweetLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickToTweetLibrary.m; sourceTree = "<group>"; };
+		044FE3AE13F0C34200738954 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		044FE3AF13F0C34200738954 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044FE39013F0C0BA00738954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE39713F0C0BA00738954 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044FE38813F0C0BA00738954 = {
+			isa = PBXGroup;
+			children = (
+				044FE39C13F0C0BA00738954 /* ClickToTweetLibrary */,
+				044FE39513F0C0BA00738954 /* Frameworks */,
+				044FE39413F0C0BA00738954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044FE39413F0C0BA00738954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044FE39313F0C0BA00738954 /* ClickToTweetLibrary.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044FE39513F0C0BA00738954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044FE39613F0C0BA00738954 /* Cocoa.framework */,
+				044FE39813F0C0BA00738954 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		044FE39813F0C0BA00738954 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				044FE39913F0C0BA00738954 /* AppKit.framework */,
+				044FE39A13F0C0BA00738954 /* CoreData.framework */,
+				044FE39B13F0C0BA00738954 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		044FE39C13F0C0BA00738954 /* ClickToTweetLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				044FE39D13F0C0BA00738954 /* Supporting Files */,
+			);
+			path = ClickToTweetLibrary;
+			sourceTree = "<group>";
+		};
+		044FE39D13F0C0BA00738954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044FE3AE13F0C34200738954 /* JRSwizzle.m */,
+				044FE3AF13F0C34200738954 /* JRSwizzle.h */,
+				044FE39E13F0C0BA00738954 /* ClickToTweetLibrary-Info.plist */,
+				044FE39F13F0C0BA00738954 /* InfoPlist.strings */,
+				044FE3A213F0C0BA00738954 /* ClickToTweetLibrary-Prefix.pch */,
+				044FE3AB13F0C23100738954 /* ClickToTweetLibrary.h */,
+				044FE3AC13F0C23100738954 /* ClickToTweetLibrary.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044FE39213F0C0BA00738954 /* ClickToTweetLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044FE3A513F0C0BA00738954 /* Build configuration list for PBXNativeTarget "ClickToTweetLibrary" */;
+			buildPhases = (
+				044FE38F13F0C0BA00738954 /* Sources */,
+				044FE39013F0C0BA00738954 /* Frameworks */,
+				044FE39113F0C0BA00738954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickToTweetLibrary;
+			productName = ClickToTweetLibrary;
+			productReference = 044FE39313F0C0BA00738954 /* ClickToTweetLibrary.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044FE38A13F0C0BA00738954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = N/A;
+			};
+			buildConfigurationList = 044FE38D13F0C0BA00738954 /* Build configuration list for PBXProject "ClickToTweetLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 044FE38813F0C0BA00738954;
+			productRefGroup = 044FE39413F0C0BA00738954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044FE39213F0C0BA00738954 /* ClickToTweetLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044FE39113F0C0BA00738954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE3A113F0C0BA00738954 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044FE38F13F0C0BA00738954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044FE3AD13F0C23100738954 /* ClickToTweetLibrary.m in Sources */,
+				044FE3B013F0C34200738954 /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		044FE39F13F0C0BA00738954 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044FE3A013F0C0BA00738954 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044FE3A313F0C0BA00738954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		044FE3A413F0C0BA00738954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		044FE3A613F0C0BA00738954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickToTweetLibrary/ClickToTweetLibrary-Prefix.pch";
+				INFOPLIST_FILE = "ClickToTweetLibrary/ClickToTweetLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		044FE3A713F0C0BA00738954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClickToTweetLibrary/ClickToTweetLibrary-Prefix.pch";
+				INFOPLIST_FILE = "ClickToTweetLibrary/ClickToTweetLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044FE38D13F0C0BA00738954 /* Build configuration list for PBXProject "ClickToTweetLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE3A313F0C0BA00738954 /* Debug */,
+				044FE3A413F0C0BA00738954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044FE3A513F0C0BA00738954 /* Build configuration list for PBXNativeTarget "ClickToTweetLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044FE3A613F0C0BA00738954 /* Debug */,
+				044FE3A713F0C0BA00738954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044FE38A13F0C0BA00738954 /* Project object */;
+}
